@@ -10,12 +10,14 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "body-parser": "^1.16.0",
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "mongojs": "^2.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/papapin/Base-for-heroku.git"
   },
   "keywords": [
     "node",
