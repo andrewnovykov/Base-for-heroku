@@ -16,9 +16,11 @@ app.use(express.static(path.join(__dirname, 'client/dist')));
 // app.set('views', __dirname + '/views');
 // app.set('view engine', 'ejs');
 //
-app.get('/', function(request, response) {
+app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'client/dist/index.html'));
-});
+});   
+
+
 
 // app.get('*', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'client/dist/index.html'));
