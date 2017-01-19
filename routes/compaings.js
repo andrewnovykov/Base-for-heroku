@@ -16,7 +16,7 @@ router.get('/', function(req, res, next){
 
     if(token == t) {
 
-      db.tasks.find(function(err, tasks){
+      db.ecampaign.find(function(err, ecampaign){
         if(err){
           res.send(err);
         } else {

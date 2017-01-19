@@ -19,7 +19,7 @@ router.get('/', function(req, res, next){
 
     if(token == t) {
 
-      db.tasks.find(function(err, tasks){
+      db.voits.find(function(err, voits){
         if(err){
           res.send(err);
         } else {
